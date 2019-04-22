@@ -264,7 +264,7 @@
 
 介绍:分布式系统基础之操作系统学习指南.
 
-* [《分布式系统领域经典论文翻译集》](http://duanple.blog.163.com/blog/static/709717672011330101333271/)
+* [《分布式系统领域经典论文翻译集》](http://duanple.com/?p=170)
 
 介绍:分布式系统领域经典论文翻译集.
 
@@ -418,7 +418,7 @@
 
 * [《Cassandra - A Decentralized Structured Storage System》](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
 
-介绍: 分布式存储系统Cassandra剖析,推荐白皮书[Introduction to Apache Cassandra](http://www.datastax.com/wp-content/uploads/2012/08/WP-IntrotoCassandra.pdf).
+介绍: 分布式存储系统Cassandra剖析,主要讲述系统设计、客户端API、以及facebook的应用。推荐白皮书[Introduction to Apache Cassandra](http://www.datastax.com/wp-content/uploads/2012/08/WP-IntrotoCassandra.pdf).
 
 * [《What is the best resource to learn about distributed systems?》](https://www.quora.com/What-is-the-best-resource-to-learn-about-distributed-systems)
 
@@ -490,7 +490,7 @@
 
 * [《Raft: In search of an Understandable Consensus Algorithm》](https://raft.github.io/raft.pdf)
 
-介绍：aft 是一种用来管理日志复制的一致性算法。它和 Paxos 的性能和功能是一样的，但是它和 Paxos 的结构不一样；这使得 Raft 更容易理解并且更易于建立实际的系统。[中文版](http://www.infoq.com/cn/articles/raft-paper)
+介绍：raft 是一种用来管理日志复制的一致性算法。它和 Paxos 的性能和功能是一样的，但是它和 Paxos 的结构不一样；这使得 Raft 更容易理解并且更易于建立实际的系统。[中文版](http://www.infoq.com/cn/articles/raft-paper). [](https://github.com/pingcap/raft-rs)
 
 * [《Raft: Understandable Distributed Consensus》](http://thesecretlivesofdata.com/raft/)
 
@@ -908,3 +908,19 @@
 * [《Large-scale Incremental Processing Using Distributed Transactions and Notifications》](http://notes.stephenholiday.com/Percolator.pdf)
 
 介绍:Percolator号称其取代MapReduce之后，Google的索引更新速度提升了100倍。它究竟是如何实现 “100” 这个刺眼的数字？当今的并行计算世界真的有如此大的提升空间吗？当我们满心欢喜以为又有新的算法、新的并行计算架构可以学习时，她却又为何跟你聊起了分布式事务？这篇文章将为您揭晓。[中文版](http://www.importnew.com/2896.html)
+
+* [《Designing Data-Intensive Applications》](http://dataintensive.net/)
+
+介绍:设计数据密集型应用是一本讲述分布式系统的数据，作者是卡内基梅隆大学的研究员。本书的质量很高。详细讲述各种数据存储，包括关系型数据库、NoSQL、大数据存储、流处理系统等等，由浅入深、拨丝抽茧.适合给刚刚步入分布式系统大门的朋友.[简译版](https://vonng.gitbooks.io/ddia-cn/content/)
+
+* [《CSE 552 Fall 2013 Lecture Topics》](https://courses.cs.washington.edu/courses/cse552/13au/calendar/lecturelist.html)
+
+介绍:华盛顿大学分布式系统课程，老师是Tom Anderson。
+
+* [《Kafka: a Distributed Messaging System for Log Processing》](http://notes.stephenholiday.com/Kafka.pdf)
+
+介绍:这篇论文是Kafka的开发团队所著，讲述Kafka的设计和架构，在Linkedin中应用以及性能评估，相当于是消息系统领域的"GFS"论文。
+
+* [《Workload Analysis of a Large-Scale Key-Value Store》](http://www.ece.eng.wayne.edu/~sjiang/pubs/papers/atikoglu12-memcached.pdf)
+
+介绍:这篇论文分析facebook在大规模使用Memcached的应用经验。如果高效的在分布式系统中利用缓存。通过缓存系统，研究员可以像tcpdump一样保存请求进行数据分析。如果是遇到大规模缓存使用的场景还是挺值得阅读。
